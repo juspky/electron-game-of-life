@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Game of Life</title>
+    <link href="https://fonts.googleapis.com/css?family=Gothic+A1" rel="stylesheet"> 
+  </head>
+  <style>
+    body {    
+      margin: 0 !important;
+      padding: 0 !important;
+    }
+    ::-webkit-scrollbar { 
+        display: none; 
+    }
+  </style>
+  <body>
+    <div id="app"></div>
+    <script>
+      // install babel hooks in the renderer process
+      require('babel-register');
+      require('./scripts/main.js');
+    </script>
+  </body>
+</html>

@@ -1,0 +1,27 @@
+{
+  "name": "electron-game-of-life",
+  "version": "1.0.0",
+  "main": "start.js",
+  "scripts": {
+    "start": "electron .",
+    "package": "electron-packager . --overwrite --out=packaged --prune=true"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.0-14",
+    "@fortawesome/free-solid-svg-icons": "^5.1.0-11",
+    "@fortawesome/react-fontawesome": "^0.1.0-11",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-electron": "^1.4.15",
+    "babel-preset-env": "^1.7.0",
+    "babel-register": "^6.26.0",
+    "electron-devtools-installer": "^2.2.4",
+    "electron-packager": "^12.1.0",
+    "pixi.js": "^4.8.0",
+    "react": "^16.4.0",
+    "react-dom": "^16.4.0",
+    "styled-components": "^3.3.0"
+  },
+  "devDependencies": {
+    "electron": "^2.0.2"
+  }
+}
