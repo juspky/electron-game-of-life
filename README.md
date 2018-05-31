@@ -2,7 +2,7 @@
 
 This is a modern themed game of life implimentation made with [Electron], [React] and [styled components]
 
-Made for [Code Competition] by IT-Talents
+Made for this [Code Competition] by IT-Talents
 
 Check: [Example patterns] for some inspirations
 
