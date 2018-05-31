@@ -34,9 +34,11 @@ or
 npm package
 ```
 
-## Saves
+## Notes
 
-Saves are stored at %appdata%/electron-game-of-life
+- Saves are stored at %appdata%/electron-game-of-life
+- The cell color setting takes a hex code converted to a number
+- Don't set the the field size enormously high or you might have a bad time
 
 [Code Competition]: https://www.it-talents.de/foerderung/code-competition/code-competition-05-2018
 [React]: https://facebook.github.io/react/ 
