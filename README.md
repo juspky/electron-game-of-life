@@ -8,6 +8,8 @@ Check [Example patterns] for some inspirations
 
 ## Running
 
+Assuming you already have node.js and yarn/npm installed.
+
 ```bash
 git clone https://github.com/spkyghost/electron-game-of-life.git
 cd electron-game-of-life
