@@ -32,7 +32,7 @@ or
 npm package
 ```
 
-## Saving
+## Saves
 
 Saves are stored at %appdata%/electron-game-of-life
 
