@@ -31,6 +31,11 @@ or
 ```bash
 npm package
 ```
+
+## Saving
+
+Saves are stored at %appdata%/electron-game-of-life
+
 [Code Competition]: https://www.it-talents.de/foerderung/code-competition/code-competition-05-2018
 [React]: https://facebook.github.io/react/ 
 [Electron]: http://electron.atom.io/ 
