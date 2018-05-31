@@ -3,6 +3,7 @@ import PixiCore from '../../views/components/Pixi/PixiCore';
 import GameOfLife from './GameOfLife';
 import Scrollbar from '../../views/components/Pixi/Scrollbar';
 const fs = window.require('fs');
+const app = window.require('electron').remote.app;
 
 function createArray(length) {
   var arr = new Array(length || 0),
@@ -127,7 +128,7 @@ class gameState {
         save.cells[cell.x][cell.y] = cell.state;
       })
 
-      fs.writeFile("saves/" + filename + ".json", JSON.stringify(save), null, (err) => {
+      fs.writeFile(app.getPath("userData") + "/" + filename + ".json", JSON.stringify(save), null, (err) => {
         if(err) throw err;
       });
     }
@@ -135,7 +136,7 @@ class gameState {
 
   load = filename => {
     if(filename){
-      let save = JSON.parse(fs.readFileSync("saves/" + filename + ".json"));
+      let save = JSON.parse(fs.readFileSync(app.getPath("userData") + "/" + filename + ".json"));
 
       if(!save)
         return;

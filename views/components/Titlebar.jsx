@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-const { remote } = window.require('electron')
+const { remote } = window.require('electron');
 
 const TitleBar = styled.div`
   user-select: none;
