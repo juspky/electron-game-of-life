@@ -4,7 +4,7 @@ This is a modern themed game of life implimentation made with [Electron], [React
 
 Made for this [Code Competition] by IT-Talents
 
-Check: [Example patterns] for some inspirations
+Check [Example patterns] for some inspirations
 
 ## Running
 
