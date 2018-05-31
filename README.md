@@ -1,5 +1,11 @@
 # electron-game-of-life
 
+This is a modern themed game of life implimentation made with [Electron], [React] and [styled components]
+
+Made for [Code Competition] by IT-Talents
+
+Check: [Example patterns] for some inspirations
+
 ## Running
 
 ```bash
@@ -16,12 +22,17 @@ npm start
 
 ## Packaging
 
+To package the app as a standalone executable run
+
 ```bash
-yarn
 yarn package
 ```
 or
 ```bash
-npm install
 npm package
 ```
+[Code Competition]: https://www.it-talents.de/foerderung/code-competition/code-competition-05-2018
+[React]: https://facebook.github.io/react/ 
+[Electron]: http://electron.atom.io/ 
+[styled components]: https://github.com/styled-components/styled-components
+[Example patterns]: https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life#Examples_of_patterns 
