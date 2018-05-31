@@ -4,7 +4,7 @@ This is a modern themed game of life implimentation made with [Electron], [React
 
 Made for this [Code Competition] by IT-Talents
 
-Check [Example patterns] for some inspirations
+Check [example patterns] for some inspirations
 
 ## Running
 
@@ -44,4 +44,4 @@ npm package
 [React]: https://facebook.github.io/react/ 
 [Electron]: http://electron.atom.io/ 
 [styled components]: https://github.com/styled-components/styled-components
-[Example patterns]: https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life#Examples_of_patterns 
+[example patterns]: https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life#Examples_of_patterns 
